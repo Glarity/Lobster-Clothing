@@ -1,0 +1,54 @@
+//output:index.html
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    // The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags
+    // meta(http-equiv='refresh' content='2')
+    title Lobster Clothing - SF home grown
+    link(href='css/bootstrap.css', rel='stylesheet')
+    link(href='css/stylesheet-index.css', rel='stylesheet')
+  body
+    .wrapper
+      .navbar-default.navbar-static-top(role='navigation')
+        .container
+          p.navbar-text.lobster-text Lobster Clothing
+          p.navbar-text
+            a.navbar-link(href='') Featured
+          p.navbar-text 
+            a.navbar-link(href='') New Releases
+          p.navbar-text
+            a.navbar-link(href='') Boys
+          p.navbar-text
+            a.navbar-link(href='') Girls
+          p.navbar-text
+            a.navbar-link(href='') All
+          p.navbar-text
+            a.navbar-link(href='') Sale
+          p.navbar-text
+            a.navbar-link(href='') Contact
+          p.navbar-text
+            a.navbar-link(href='') About
+          form.navbar-form.navbar-right(role='search')
+            .form-group.has-feedback
+              input.form-control(type='text', placeholder='SEARCH')
+              i.glyphicon.glyphicon-search.form-control-feedback
+      header.box
+        .logo
+        a(href="#content")
+          span.glyphicon.glyphicon-menu-down(aria-hidden='true')
+      .content
+        .container
+          #content
+          article
+            h1 Lobster Clothing
+            hr
+            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at lectus accumsan erat lacinia viverra id in libero. Nam fringilla ex in maximus efficitur. Nam eget ipsum ac neque vehicula posuere eu id purus. Nunc molestie lobortis ex sit amet fermentum. Mauris sed rhoncus tortor. Vivamus sit amet lacus porttitor, venenatis orci sit amet, suscipit erat. Nunc vel dolor id ante scelerisque consectetur non a ligula. Mauris sagittis dolor et neque imperdiet, vitae luctus ex cursus. Integer et justo dolor.
+    // jQuery (necessary for Bootstrap's JavaScript plugins)
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js')
+    // Include all compiled plugins (below), or include individual files as needed
+    script(src='js/bootstrap.min.js')
+    script(src='js/parallax.js')
+    script(src='js/scroll.js')

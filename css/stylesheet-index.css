@@ -1,0 +1,9 @@
+@import 'stylesheet.css';
+
+.box .glyphicon {
+  top: -32px;
+  color: white;
+  padding-right: 10px;
+  font-size: 2em;
+  float: right;
+}
